@@ -91,7 +91,34 @@ nav #avatars_icons .icon i {
 } */
 
 
-#main {
+/*
+    Body
+*/
+#content {
     background: #F9F9F9;
-    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+/*
+    Main content (Left section)
+*/
+main {
+    width: 57%;
+}
+main #playing_video {
+    /*produces 16:9 aspect ratio for the iframe
+    and the height of #playing_video changes based on the width of the iframe*/
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+main #playing_video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
