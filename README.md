@@ -2,9 +2,9 @@
 
 # Embedding Images and Video
 
-> HTML document that matches the appearance of youtube
+> Youtube Clone (HTML document that matches the appearance of youtube)
 
-![screenshot](./image/app_screenshot.png)
+![screenshot](app_screenshot.png)
 
 ## Built With
 
@@ -19,13 +19,13 @@
 
 👤 **Binyam Hailemeskel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@bini-i](https://github.com/bini-i)
+- Twitter: [@binyamshewa](https://twitter.com/binyamshewa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/binyam-hailemeskel-728048151/)
 
-👤 **Author2**
+👤 **Oluwadare Juwon Joshua**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@wintan1418](https://github.com/wintan1418)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
