@@ -26,7 +26,11 @@
 👤 **Oluwadare Juwon Joshua**
 
 - GitHub: [@wintan1418](https://github.com/wintan1418)
+<<<<<<< HEAD
 - Twitter: [@juwonoluwadare]https://twitter.com/oluwadarejuwon)
+=======
+- Twitter: [@oluwadarejuwon](https://twitter.com/oluwadarejuwon)
+>>>>>>> 393c45e49afa0c3999838dc939065760b28f09b2
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
 
 ## 🤝 Contributing
