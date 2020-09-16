@@ -345,3 +345,21 @@ aside .suggestion .thumbnail_description p:first-child{
     color: black;
     font-size: 14px;
 }
+
+/*
+    Layout changes for screen size less than 1000px
+*/
+@media only screen and (max-width: 1000px){
+    #content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 30px;
+        padding-top: 80px;
+    }
+    main, aside {
+        flex-grow: 1;
+        width: 85%;
+    }
+}
