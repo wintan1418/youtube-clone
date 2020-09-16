@@ -111,19 +111,18 @@ nav #avatars_icons .icon{
 nav #avatars_icons .icon i {
     color: #606060;
 }
-/* nav #avatars_icons .avatar {
+nav #avatars_icons .avatar {
     border-radius: 50%;
     border: 0.5px solid gray;
     width: 35px;
     height: 35px;
-} */
-/* nav #avatars_icons .avatar img {
-    width: 95%;
-    height: 95%;
+    overflow: hidden;
+} 
+nav #avatars_icons .avatar img {
+    width: 100%;
+    height: 100%;
     display: block;
-} */
-
-
+}
 /*
     Body
 */
@@ -309,3 +308,40 @@ main #comment_section #comments .comment .comment_detail .reactions a{
     color: #606060;
 }
 
+/*
+    (Aside (Right section)
+*/
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+aside .suggestion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 7px;
+}
+aside .suggestion .thumbnail img{
+    background: orange;
+    width: 165px;
+    height: 95px;
+    margin-right: 5px;
+}
+aside .suggestion .thumbnail_description {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+aside .suggestion .thumbnail_description p {
+    margin-bottom: 5px;
+    color: #606060;
+    font-size: 13px;
+}
+aside .suggestion .thumbnail_description p:first-child{
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
