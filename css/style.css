@@ -236,3 +236,76 @@ main #video_description{
 main #video_description p {
     line-height: 1.5;
 }
+*****************
+******************main #comment_section {
+    border-bottom: 1px solid #c5c1c1;
+    margin-bottom: 10px;
+}
+main #comment_section #comment_head {
+    display: flex;
+    justify-content: start;
+    padding-top: 24px;
+    margin-bottom: 24px;
+}
+main #comment_section #comment_head h3 {
+    font-weight: bold;
+    margin-right: 25px;
+}
+main #comment_section #comment_input {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 32px;
+}
+main #comment_section .avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: blueviolet;
+    display: grid;
+    place-items: center;
+    margin-right: 15px;
+}
+main #comment_section .avatar img{
+    width: 100%;
+    height: 100%;
+}
+main #comment_section #comment_input input {
+    flex-grow: 1;
+    height: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c5c1c1;
+}
+main #comment_section #comments .comment{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+main #comment_section #comments .comment .comment_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main #comment_section #comments .comment .comment_detail .commentor,
+main #comment_section #comments .comment .comment_detail .reactions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+main #comment_section #comments .comment .comment_detail .commentor h4{
+    font-weight: bold;
+    margin: 0 10px 3px 0;
+}
+main #comment_section #comments .comment .comment_detail .commentor p{
+    font-size: 13px;
+    color: #697A87;
+
+}
+main #comment_section #comments .comment .comment_detail .text {
+    margin-bottom: 15px;
+}
+main #comment_section #comments .comment .comment_detail .reactions a{
+    margin-right: 18px;
+    color: #606060;
+}
+
