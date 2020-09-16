@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d86848cfe0.js" crossorigin="anonymus"></script>
+    <link href="https//fonts.googleapis.com/css2? family=r=Roboto:wght@100;400;500;700;&display=swap" rel="stylesheet">
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <div id="hamburger">
+                    <a href="#"><i class="fa fa-bars"></i></a>
+                </div>
+                <a href="#"><img src="./image/YouTube-Logo.png  " width="80" height="40" alt="Youtube Logo"></a>
+            </div>
+            <div id="search_bar">
+                <input type="text" id="search_field" placeholder="Search">
+                <button id="search_button" type="button"><i class="fa fa-search"></i></button>
+            </div>
+            <div id="avatars_icons">
+                <div class="icon">
+                    <a href="#"><i class="fa fa-video"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="fa fa-th"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="fa fa-bell"></i></a>
+                </div>
+                <div class="avatar">
+                    <a href="#"><img src="./image/sample_avatar.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="content">
+        <main>
+            <section id="playing_video">
+                <iframe src="https://www.youtube.com/embed/V74l_zS1x8E"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+            <section id="video_detail">
+                <div id="title">
+                    <h2>Contributing to Open Source Part I: The Easy Way</h2>
+                </div>
+                <div id="view_detail">
+                    <div id="view_num">
+                        <p id="view_count">60,401 views</p>
+                        <p id="date">• Feb 27, 2014</p>
+                    </div>
+                    <div id="reactions">
+                        <div class="icon">
+                            <a href="#"> <i class="fa fa-thumbs-up" aria-hidden="true"></i> 447</a>
+                        </div>
+                        <div class="icon">
+                            <a href=""> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 19</a>
+                        </div>
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-share" aria-hidden="true"></i> Share</a>
+                        </div>
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="channel_detail">
+                <div id="channel_logo_name">
+                    <a href="#">
+                        <div id="channel_logo">T</div>
+                    </a>
+                    <div id="channel_name">
+                        <a href="#">
+                            <h4>The Odin Project</h4>
+                        </a>
+                        <p>1.02K subscribers</p>
+                    </div>
+                </div>
+                <a href="">
+                    <p id="subscribe_button">SUBSCRIBE</p>
+                </a>
+            </section>
+            <section id="video_description">
+                <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple
+                    contribution
+                    to an
+                    open source project -- without using the command line, a text editor, "forking a repo", or even
+                    touching Git
+                    outside of
+                    Github. I'll also describe what kinds of contributions open
+                </p>
+            </section>
+            <section id="comment_section">
+                <div id="comment_head">
+                    <h3>17 Comments</h3>
+                    <p><i class="fa fa-sort" aria-hidden="true"></i> SORT BY</p>
+                </div>
+                <div id="comment_input">
+                    <a href="#" class="avatar"><img src="./image/sample_avatar.png" alt=""></a>
+                    <input type="text" id="" placeholder="Add a public comment...">
+                </div>
+                <div id="comments">
+                    <div class="comment">
+                        <a href="#" class="avatar">W</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>Wing N.</h4>
+                                <p>2 years ago</p>
+                            </div>
+                            <p class="text">"use your powers for good" haha
+                                thank you for the video.</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs-up" aria-hidden="true"></i> 9</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a href="#" class="avatar">A</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>andrewscheuermann05</h4>
+                                <p>6 years ago</p>
+                            </div>
+                            <p class="text">FYI: the edit button has changed to a diagonal pencil</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs--up" aria-hidden="true"></i> 2</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a href="#" class="avatar">A</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>andrewscheuermann05</h4>
+                                <p>6 years ago</p>
+                            </div>
+                            <p class="text">FYI: the edit button has changed to a diagonal pencil</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs--up" aria-hidden="true"></i> 2</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a href="#" class="avatar">A</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>andrewscheuermann05</h4>
+                                <p>6 years ago</p>
+                            </div>
+                            <p class="text">FYI: the edit button has changed to a diagonal pencil</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs--up" aria-hidden="true"></i> 2</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a href="#" class="avatar">A</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>andrewscheuermann05</h4>
+                                <p>6 years ago</p>
+                            </div>
+                            <p class="text">FYI: the edit button has changed to a diagonal pencil</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs--up" aria-hidden="true"></i> 2</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a href="#" class="avatar">A</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>andrewscheuermann05</h4>
+                                <p>6 years ago</p>
+                            </div>
+                            <p class="text">FYI: the edit button has changed to a diagonal pencil</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs--up" aria-hidden="true"></i> 2</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a href="#" class="avatar">A</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>andrewscheuermann05</h4>
+                                <p>6 years ago</p>
+                            </div>
+                            <p class="text">FYI: the edit button has changed to a diagonal pencil</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs--up" aria-hidden="true"></i> 2</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a href="#" class="avatar">D</a>
+                        <div class="comment_detail">
+                            <div class="commentor">
+                                <h4>Dan Bei</h4>
+                                <p>6 months ago</p>
+                            </div>
+                            <p class="text">They seem to have removed the link from the bottom of the student
+                                solutions...</p>
+                            <div class="reactions">
+                                <a href="#"> <i class="fa fa-thumbs-up" aria-hidden="true"></i> 1</a>
+                                <a href="#"> <i class="fa fa-thumbs-down" aria-hidden="true"></i> 1</a>
+                                <a href="#">REPLY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+
+                <section class="thumbnail_description">
+                    <p class="title">Contributing to open source</p>
+                    <p>The Odin Project</p>
+                    <p>37K views • 6 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+
+
+                <section class="thumbnail_description">
+                    <p class="title">how to use git</p>
+                    <p>Fire ship</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+            <div class="suggestion">
+                <section class="thumbnail">
+                    <a href="#"><img src="./image/thumbnail.png" alt=""></a>
+                </section>
+
+                <section class="thumbnail_description">
+                    <p class="title">Your First Github Pull Request</p>
+                    <p>Jackson Bates</p>
+                    <p>53K views • 3 years ago</p>
+                </section>
+            </div>
+        </aside>
+        <footer>
+
+        </footer>
+</body>
+
+</html>
