@@ -4,7 +4,7 @@
 
 > Youtube Clone (HTML document that matches the appearance of youtube)
 
-![screenshot](app_screenshot.png)
+![screenshot](screenshot.png)
 
 ## Built With
 
